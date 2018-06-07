@@ -6,9 +6,17 @@ import { Text } from 'react-native';
 // Make a component
 
 const Header = () => {
-	return <Text>Albums!</Text>;
+	const { textStyle } = styles;
+
+	return <Text style={textStyle}>Albums!</Text>;
 };
 
-/// Make the component available to other parts of the app.
+const styles = {
+	textStyle: {
+		fontSize: 40
+	}
+};
+
+// Make the component available to other parts of the app.
 
 export default Header;
