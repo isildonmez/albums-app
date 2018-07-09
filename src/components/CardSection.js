@@ -1,6 +1,7 @@
 import React from 'react';
 import { View } from 'react-native';
 
+// {props.children} refers any component passed into CardSection component
 const CardSection = (props) => {
   return (
     <View style={styles.containerStyle}>

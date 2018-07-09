@@ -7,6 +7,7 @@ import AlbumList from './src/components/AlbumList';
 
 // Create a component
 
+// Declaring flex:1 is necessary if Scrollview is used
 const App = () => (
   <View style={{ flex: 1 }}>
     <Header headerText={'Albums'} />
